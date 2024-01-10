@@ -9,18 +9,19 @@
 </head>
 <body>
     <header>
-        <section class="frame"> 
-            <img class="frame__portrait" src="./Assets/Profile Photo/Photo.jpg" alt="La photo de profil">
-        </section>
+        <div id="en-tête">
+            <div id="cadre">
+                <a href=".//Assets/Profile_Photo/Photo.jpg"><img id="portrait" src="./Assets/Profile_Photo/Photo.jpg" alt="La photo de profil"></a>
+            </div>
         
-        <h1>Alexandre Grillon</h1>
+            <h1>Alexandre Grillon</h1>
 
-        <h2>Développeur Web</h2>
-
+            <h2>Développeur Web</h2>
+        </div>
         <nav>
             <address>
                 <p>
-                    <a href="https://www.google.com/maps/place/Pl.+Charles+de+Gaulle,+75008+Paris/@48.8738525,2.2932478,17z/data=!3m1!4b1!4m6!3m5!1s0x47e66fec746f7c45:0x3847ffb6d0d85ec5!8m2!3d48.8738525!4d2.2958227!16zL20vMGRfZ2c?entry=ttu" target="_blank" rel="noopener noreferrer">Pl. Charles de Gaulle, 75008 Paris</a>
+                <a href="https://www.google.com/maps/place/Pl.+Charles+de+Gaulle,+75008+Paris/@48.8738525,2.2932478,17z/data=!3m1!4b1!4m6!3m5!1s0x47e66fec746f7c45:0x3847ffb6d0d85ec5!8m2!3d48.8738525!4d2.2958227!16zL20vMGRfZ2c?entry=ttu" target="_blank" rel="noopener noreferrer">Pl. Charles de Gaulle,<br>75008 Paris</a>
                 </p>
                 
                 <p>
@@ -34,12 +35,12 @@
         </nav>
     </header>
     <main>
-        <section>
+        <section id="colonne-gauche">
             <h3>A propos</h3>
 
                 <p>
-                    J'ai toujours été attiré par le domaine artistique, tel que le dessin ou la peinture. Mais aussi par le numérique, et les
-                    les nouvelles technologies. C'est pour cela, que j'ai décidé de me tourner vers le métier de développeur web.
+                    J'ai toujours été attiré par le domaine artistique, tel que le <strong>dessin</strong> ou la <strong>peinture</strong>. Mais aussi par le <strong>numérique</strong>, et
+                    les <strong>nouvelles technologies</strong>. C'est pour cela, que j'ai décidé de me tourner vers le métier de <strong>développeur web</strong>.
                 </p>
 
             <h3>Langues parlées</h3>
@@ -60,7 +61,7 @@
                 </ul>
         </section>
 
-        <section>
+        <section id="colonne-droite">
             <h3>Expériences profesonnelles</h3>
 
                 <h4>Préparateur de commandes chez M2LOG</h4>   
@@ -111,9 +112,11 @@
                 </ul>
         </section>
     </main>
-    <footer class="pied-de-page">
-        <a href="https://www.instagram.com/alexandre_grillon/?hl=fr" target="_blank" rel="noopener noreferrer"><img class="pied-de-page__instagram" src="./Assets/Images/instagram.png" alt="Le logo d'instagram"></a>
-        <a href="https://github.com/Alexgrll" target="_blank" rel="noopener noreferrer"><img class="pied-de-page__github" src="./Assets/Images/github.png" alt="Le logo de github"></a>
+    <footer>
+        <div id="pied-de-page">
+            <a href="https://www.instagram.com/alexandre_grillon/?hl=fr" target="_blank" rel="noopener noreferrer"><img id="instagram" src="./Assets/Images/instagram.png" alt="Le logo d'instagram"></a>
+            <a href="https://github.com/Alexgrll" target="_blank" rel="noopener noreferrer"><img id="github" src="./Assets/Images/github.png" alt="Le logo de github"></a><br>
+        </div>
         <small>Fait le <time datetime="2024-01-10">10 janvier 2024</time> </small>
     </footer>
 </body>
