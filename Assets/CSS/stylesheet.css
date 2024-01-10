@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&family=Raleway:ital@1&display=swap');
+
+@font-face{
+    font-family: 'Raleway';
+    src: url(../Fonts/Raleway-Regular.woff), url(../Fonts/Raleway-Italic.woff), url(../Fonts/Raleway-Bold.woff);
+    src: url(../Fonts/Raleway-Regular.ttf), url(../Fonts/Raleway-Italic.ttf), url(../Fonts/Raleway-Bold.ttf), format('truetype') ;
+}
+
+.frame{
+    width: 150px;
+    height: 150px;
+}
+
+.frame__portrait{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.pied-de-page__instagram{
+    width: 25px;
+    height: 25px;
+}
+
+.pied-de-page__github{
+    width: 25px;
+    height: 25px;
+}

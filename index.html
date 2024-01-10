@@ -5,20 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Réalisation du Curriculum Vitæ de Alexandre Grillon en HTML/CSS.">
     <title>Curriculum Vitæ de Alexandre Grillon</title>
+    <link rel="stylesheet" href="./Assets/CSS/stylesheet.css">
 </head>
 <body>
     <header>
+        <section class="frame"> 
+            <img class="frame__portrait" src="./Assets/Profile Photo/Photo.jpg" alt="La photo de profil">
+        </section>
+        
         <h1>Alexandre Grillon</h1>
 
         <h2>Développeur Web</h2>
 
         <nav>
             <address>
-                <p>Pl. Charles de Gaulle, 75008 Paris</p>
+                <p>
+                    <a href="https://www.google.com/maps/place/Pl.+Charles+de+Gaulle,+75008+Paris/@48.8738525,2.2932478,17z/data=!3m1!4b1!4m6!3m5!1s0x47e66fec746f7c45:0x3847ffb6d0d85ec5!8m2!3d48.8738525!4d2.2958227!16zL20vMGRfZ2c?entry=ttu" target="_blank" rel="noopener noreferrer">Pl. Charles de Gaulle, 75008 Paris</a>
+                </p>
                 
-                <p>alexandregrillon041@gmail.com</p>
+                <p>
+                    <a href="mailto:alexandregrillon041@gmail.com">alexandregrillon041@gmail.com</a>
+                </p>
 
-                <p>0606060606</p>
+                <p>
+                    <a href="tel:0606060606">0606060606</a>
+                </p>
             </address>
         </nav>
     </header>
@@ -100,7 +111,9 @@
                 </ul>
         </section>
     </main>
-    <footer>
+    <footer class="pied-de-page">
+        <a href="https://www.instagram.com/alexandre_grillon/?hl=fr" target="_blank" rel="noopener noreferrer"><img class="pied-de-page__instagram" src="./Assets/Images/instagram.png" alt="Le logo d'instagram"></a>
+        <a href="https://github.com/Alexgrll" target="_blank" rel="noopener noreferrer"><img class="pied-de-page__github" src="./Assets/Images/github.png" alt="Le logo de github"></a>
         <small>Fait le <time datetime="2024-01-10">10 janvier 2024</time> </small>
     </footer>
 </body>
